@@ -1,0 +1,166 @@
+body{
+   
+    background: linear-gradient(#EFF1FA,#0a3871)
+}
+
+.contenedor{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px 250px;
+}
+
+.contenedor li{
+    display: inline-block;
+}
+
+.area-texto{
+    background-color: white;
+    width: 750px;
+    height: 844px;
+    border-radius: 32px;
+    vertical-align: top; 
+}
+
+.conjunto{
+    margin-left: 40px;
+}
+
+.considerar{
+    margin-top: 250px;
+    position: relative;
+    height: 50px;
+}
+
+.considerar p{
+    display: inline;
+    color: #495057;
+    font-size: 15px;
+    position: absolute;
+    top:50%;  
+    transform: translate(10%, -50%);
+}
+
+.icono{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:50%;  
+    transform: translate(0, -50%);
+}
+
+.area-texto textarea{
+    display: block;
+    width: 600px;
+    margin-top: 100px;
+    border: none;
+    font-size: 30px;
+    color: #0a3871;
+    font-weight:500;    
+}
+
+.area-texto textarea:focus{
+    outline: none;
+}
+
+.area-texto button{
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #0a3871;    
+}
+
+.btn-encriptar{
+    color: white;
+    background-color: #0a3871;
+}
+
+.btn-encriptar:active{
+    background-color: #ced4da;
+    color:#0a3871;
+}
+
+.btn-desencriptar{
+    color:#0a3871;
+    background-color: cEd4da;
+    margin-left: 20px;
+}
+
+.btn-desencriptar:active{
+    color: #ced4da;
+    background-color: #0a3871;
+}
+
+.resultado{
+    background-color: white;
+    width: 400px;
+    height: 844px;
+    border-radius: 32px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.resultado img{
+    margin-top: 200px;
+}
+
+.mensaje{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.instruccion{
+    color: #495057;
+    margin-top: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+.display2 textarea{
+    margin-top:32px;
+    width: 300px;
+    height: 600px;
+    border: none;
+    font-size: 20px;
+    color: #495057;
+    font-weight:500; 
+}
+
+.display2 textarea:focus{
+    outline: none;
+}
+
+.display2 button{
+    display: block;
+    margin: 53px auto 0 auto;
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    border: 1px solid #0a3871; 
+    background-color: #EFF1FA;
+}
+
+.display2 button:active{ 
+    background-color: #0a3871;
+    color: #EFF1FA;
+}
+
+button{
+    cursor: pointer;
+}
+
+footer{
+    background-image: url('images/bg.jpg');
+    color: #EFF1FA;
+    height: 100px;
+    position: relative;
+}
+
+footer p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

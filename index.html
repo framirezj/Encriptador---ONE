@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <title>Challenge 1 - Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        
+        <main>            
+            <ul class="contenedor">
+                <li>
+                    <img src="images/logo.png" alt="logo alura">
+                </li>
+                <li class="area-texto">
+                    <div class="conjunto">
+                        <textarea id="textarea-solicitado" rows="8" cols="50" placeholder="Ingrese el texto aqui"></textarea>
+                        <div class="considerar">
+                            <img class="icono" src="images/icono.png">
+                            <p>solo letras minúsculas y sin acentos</p>
+                        </div>                        
+                        <button onclick="encriptar()" class="btn-encriptar">Encriptar</button>
+                        <button onclick="desencriptar()" class="btn-desencriptar">Desencriptar</button>
+                    </div>    
+                </li>
+                <li class="resultado">
+                    <div id="display1" class="display1">
+                        <img src="images/muneco.png" alt="muneco con interrogantes">
+                        <p class="mensaje">Ningún mensaje fue encontrado</p>
+                        <p class="instruccion">Ingresa el texto que desees encriptar o desencriptar</p>
+                    </div>
+                    <div id="display2" class="display2 ocultar">
+                        <textarea id="textarea-resultado" cols="30" rows="10"></textarea>
+                        <button onclick="copiarResultado()">Copiar</button>
+                    </div>
+                </li>
+            </ul>
+        </main>
+
+        <footer> 
+            <p>Created by: Francisco Ramírez. ✌</p>
+        </footer<>
+
+<script src="app.js"></script>
+    
+</body>
+</html>
