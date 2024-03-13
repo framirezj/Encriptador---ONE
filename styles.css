@@ -1,6 +1,7 @@
 body{
    
-    background: linear-gradient(#EFF1FA,#0a3871)
+    background: linear-gradient(#EFF1FA,#0a3871);
+    background-repeat: no-repeat;
 }
 
 .contenedor{
@@ -156,6 +157,7 @@ footer{
     color: #EFF1FA;
     height: 100px;
     position: relative;
+    
 }
 
 footer p{
@@ -163,4 +165,52 @@ footer p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+@media screen and (max-width:480px){
+    .contenedor{
+        width: 100%;
+        padding: 0 0;
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .area-texto{
+        width: 90%;
+        margin-top: 1em;
+        text-align: center;
+
+    }
+   
+    .area-texto textarea{
+        width: 300px;
+        margin-left: 1em;
+    }
+
+    .area-texto button{
+        margin-left: 0;
+        margin-bottom: 1em;
+    }
+
+    .conjunto{
+        margin: 0 0;
+        text-align: center;
+    }
+
+    .considerar{
+        text-align: start;
+        margin-left: 3em;
+    }
+
+    .resultado{
+        margin: 1em auto;
+        width: 90%;
+        
+    }
+
+
+    
+
+    
 }
