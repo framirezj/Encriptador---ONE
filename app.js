@@ -65,6 +65,11 @@ const encriptar = () => {
           }//end for
 
           mostrarResultado(textoEncriptado);
+          
+          Swal.fire({
+          html: `Texto Encriptado<p>&#128274;</p>`,
+          icon: "success"
+          });
 
      }//end if
 }
@@ -106,6 +111,11 @@ const desencriptar = () => {
           }//end for
 
           mostrarResultado(textoDesencriptado);
+          Swal.fire({
+               html: `Texto Desencriptado<p>&#128275;</p>`,
+               icon: "success"
+               });
+          
      }
 }
 
