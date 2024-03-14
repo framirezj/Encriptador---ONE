@@ -133,4 +133,8 @@ const ocultarImagen = () => {
 const copiarResultado = () => {
      let texto = document.getElementById('textarea-resultado').value;
      navigator.clipboard.writeText(texto);
+     Swal.fire({
+          text: "¡Listo!, el texto ha sido copiado al portapapeles.",
+          icon: "success"
+        });
 }
